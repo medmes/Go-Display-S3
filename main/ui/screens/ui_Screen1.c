@@ -9,25 +9,15 @@ void ui_Screen1_screen_init(void)
 {
 ui_Screen1 = lv_obj_create(NULL);
 lv_obj_clear_flag( ui_Screen1, LV_OBJ_FLAG_SCROLLABLE );    /// Flags
-lv_obj_set_style_bg_color(ui_Screen1, lv_color_hex(0x3B5089), LV_PART_MAIN | LV_STATE_DEFAULT );
+lv_obj_set_style_bg_color(ui_Screen1, lv_color_hex(0xF9860A), LV_PART_MAIN | LV_STATE_DEFAULT );
 lv_obj_set_style_bg_opa(ui_Screen1, 255, LV_PART_MAIN| LV_STATE_DEFAULT);
-
-ui_Switch1 = lv_switch_create(ui_Screen1);
-lv_obj_set_width( ui_Switch1, 50);
-lv_obj_set_height( ui_Switch1, 25);
-lv_obj_set_x( ui_Switch1, 128 );
-lv_obj_set_y( ui_Switch1, -64 );
-lv_obj_set_align( ui_Switch1, LV_ALIGN_CENTER );
-
 
 ui_Calendar1 = lv_calendar_create(ui_Screen1);
 lv_obj_t *ui_Calendar1_header = lv_calendar_header_arrow_create(ui_Calendar1);
 lv_obj_set_width( ui_Calendar1, 230);
-lv_obj_set_height( ui_Calendar1, 162);
-lv_obj_set_x( ui_Calendar1, -43 );
-lv_obj_set_y( ui_Calendar1, -2 );
+lv_obj_set_height( ui_Calendar1, 170);
 lv_obj_set_align( ui_Calendar1, LV_ALIGN_CENTER );
 
-
+uic_Calendar1 = ui_Calendar1;
 
 }

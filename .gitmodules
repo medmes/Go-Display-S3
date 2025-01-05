@@ -1,3 +1,0 @@
-[submodule "managed_components/lvgl__lvgl"]
-	path = managed_components/lvgl__lvgl
-	url = git@github.com:lvgl/lvgl.git

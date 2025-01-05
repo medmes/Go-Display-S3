@@ -18,9 +18,9 @@ extern "C" {
 // SCREEN: ui_Screen1
 void ui_Screen1_screen_init(void);
 extern lv_obj_t *ui_Screen1;
-extern lv_obj_t *ui_Switch1;
 extern lv_obj_t *ui_Calendar1;
 // CUSTOM VARIABLES
+extern lv_obj_t *uic_Calendar1;
 
 // EVENTS
 extern lv_obj_t *ui____initial_actions0;
