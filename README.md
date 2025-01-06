@@ -8,7 +8,7 @@ This code follows a similar structure to the code provided in [esp-bsp](https://
 ## Tested Hardware & Software Framework(s)
 * LilyGO T-Display S3 [v1.2] (non-touch)
   * ESP-IDF Version 5.3.x ([master branch](https://github.com/espressif/esp-idf))
-  * LVGL 8.3.x (this repsoitory is tested with 8.3.10). the git submodule is pinned on tag: v8.3.10.
+  * LVGL 8.4.0
   * Squareline Studio 1.5
 
 ## Capabilities
