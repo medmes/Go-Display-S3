@@ -9,7 +9,7 @@
 //
 
 
-static const char *TAG = "esp_idf_t_display_s3";
+static const char *TAG = "t_display_s3";
 
 // ADC handle for battery voltage monitoring
 static adc_oneshot_unit_handle_t adc_handle;
@@ -252,8 +252,6 @@ void lcd_init(lv_disp_drv_t disp_drv, lv_disp_t **disp_handle, bool backlight_on
 
     lcd_power_init();
     lcd_brightness_init();
-
-    init_battery_monitor();
 
     /* LCD IO */
     esp_lcd_panel_io_handle_t io_handle = NULL;
